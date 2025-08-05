@@ -3,7 +3,7 @@ import express from 'express'
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('Hola desde el index.')
+  res.send('Hola desde el index. Corriendo con trigger')
 })
 
 app.listen(3000, ()=>{
